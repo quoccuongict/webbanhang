@@ -1,0 +1,141 @@
+/* Main */
+
+.container-content {
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-content .title {
+  display: flex;
+  height: 55px;
+  background-color: #fff;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container-content .title .sanpham {
+  flex-grow: 1;
+  margin-left: 50px;
+}
+
+.container-content .title .tieude {
+  flex-basis: 150px;
+  color: #aaa;
+}
+
+.container-content .main {
+  background-color: #fff;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-content .content {
+  display: flex;
+  height: 120px;
+  background: #fff;
+  align-items: center;
+  width: 97%;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+/* .container-content .content .mota {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.container-content .content .infor {
+  flex-basis: 150px;
+} */
+
+.im-product {
+  height: 80px;
+  width: 80px;
+  margin-left: 20px;
+}
+
+.check {
+  margin-left: 30px;
+  height: 18px;
+  width: 18px;
+}
+
+.container-content .content .thaotac {
+  border: none;
+  background-color: #fff;
+  margin-right: 90px;
+  color: #737373;
+}
+
+.container-content .content .thaotac:hover {
+  color: #ee4d2d;
+}
+
+.payment {
+  display: flex;
+  height: 80px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.payment .money {
+  margin: 0 10px;
+  font-size: 25px;
+  color: #ee4d2d;
+}
+
+.payment .btn-muahang {
+  padding: 15px 50px;
+  margin: 0 20px;
+  border: none;
+  background: #ee4d2d;
+  color: #fff;
+}
+
+/* hung */
+
+.quantity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 7%;
+  margin-right: 30px;
+}
+
+.quantity input {
+  width: 20px;
+  text-align: center;
+  margin: 0;
+  /* border: none; */
+}
+
+.quantity button {
+  border: 0.5px solid;
+  /* border: none; */
+  font-size: 18px;
+  /* font-size: 30px; */
+  background-color: transparent;
+  color: #737373;
+}
+
+.quantity button:focus {
+  outline: none;
+}
+
+.content .sanpham {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+}
+
+.mota{
+    flex: 1;
+    padding-left: 10px;
+}

@@ -1,0 +1,181 @@
+/* css-profile */
+
+.container-profile {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  font-family: arial;
+}
+
+
+
+/* taskbar-left */
+.taskbar {
+  margin-top: 20px;
+}
+
+.container-profile .infor-frofile .in-infor-profile {
+  list-style: none;
+
+}
+
+.taskbar .avatar-profile {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.taskbar .avatar-profile .image-avatar {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.un {
+  margin-top: 3px;
+}
+
+.fix-frofile {
+  color: #888;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+
+.have-icon {
+  margin-bottom: 18px;
+}
+
+.tkct {
+  display: flex;
+}
+
+.in-tkct {
+  display: block;
+  line-height: 25px;
+}
+
+.fa-user-circle {
+  color: #f1af0b;
+  margin-right: 13px;
+  font-size: 2.5rem;
+}
+
+.fa-file-alt {
+  color: #5b83d4;
+  margin-right: 13px;
+  font-size: 2.2rem;
+}
+
+.fa-bell {
+  color: #da5231;
+  margin-right: 13px;
+  font-size: 2.2rem;
+}
+
+.fa-wallet {
+  color: #d45858;
+  margin-right: 13px;
+  font-size: 2.2rem;
+}
+
+.fa-coins {
+  color: #f5c237;
+  margin-right: 13px;
+  font-size: 2.2rem;
+}
+
+.infor-frofile .in-infor-profile {
+  margin-bottom: 15px;
+}
+
+.infor-frofile .hoso {
+  color: #ee4d2d;
+}
+
+/* content-right */
+.content {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+}
+
+
+.content .head {
+  margin: 22px 50px;
+}
+
+.hr-content {
+  width: 90%;
+}
+
+.content .form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 50px 0 50px;
+}
+
+.content .form .la {
+  margin-bottom: 30px;
+}
+
+.content .form .la1 {
+  color: rgba(85, 85, 85, .8);
+  margin-right: 20px;
+}
+
+.content .form span {
+
+  margin: 0 10px;
+}
+
+.content .form .btn-save {
+  height: 40px;
+  width: 70px;
+  background-color: #ee4d2d;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  margin: 25px 0 60px 85px;
+}
+
+.content .form .btn-save:hover {
+  background: #f05d40;
+}
+
+.content-avatar {
+  position: relative;
+  border-left: 1px solid #ddd;
+}
+
+.content-avatar .avatar1 {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.chu {
+  position: absolute;
+  left: 23%;
+  top: 57%;
+  color: #ccc;
+}
+
+.avatar-uploader{
+    padding-left: 100px;
+    padding-top: 300px
+}
+
+.btn-save-profile{
+  margin-bottom: 10px;
+  margin-left: 150px;
+  width: 100px;
+}

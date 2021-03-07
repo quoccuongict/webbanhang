@@ -1,0 +1,98 @@
+.container-product {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-family: arial;
+  background-color: #fff;
+}
+
+.container-product .container-left .image-product {
+  height: 500px;
+  width: 450px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.below-image {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 30px 0;
+}
+
+/* ringht */
+
+.container-right {
+  padding: 20px;
+}
+
+.container-right .abc {
+  margin: 40px 0;
+}
+
+.end .add-product {
+  color: #fff;
+  padding: 13px 26px;
+  background: #ee4d2d;
+  box-shadow: inset 0 2px 1px 0 rgba(0, 0, 0, 0.05);
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.end .add-product:hover {
+  background: rgba(236, 68, 17, 0.87);
+}
+
+.end .reset-product{
+  color: #fff;
+  padding: 13px 26px;
+  background: #ee4d2d;
+  box-shadow: inset 0 2px 1px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.end .reset-product:hover {
+  background: rgba(236, 68, 17, 0.87);
+}
+
+.add-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.abc label {
+  display: block;
+  margin-right: -50px;
+}
+
+.container-left {
+  margin-top: 90px;
+}
+.add-form input {
+  width: 70%;
+  padding: 10px 20px;
+}
+
+.container-right h1 {
+  margin-right: 0 auto;
+  color: rgba(236, 68, 17, 0.87);
+}
